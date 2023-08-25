@@ -7,7 +7,7 @@ export default function Contract() {
             <div className={"absolute w-full text-white"}>
                 <Navbar />
             </div>
-            <img src={"forest.jpg"} alt={"Forest"} className={"w-screen h-screen"} />
+            <img src={"/images/forest.jpg"} alt={"Forest"} className={"w-screen h-screen"} />
     <div className={"absolute top-2/4 left-1/4 transform -translate-x-1/2 -translate-y-2/2 text-white text-2xl"}>
         <p>Telefon: +45 60559872</p>
     </div>

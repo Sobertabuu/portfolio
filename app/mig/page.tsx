@@ -3,12 +3,12 @@ import Navbar from "@/app/Navbar";
 export default function Mig() {
     return (
         <main>
-            <div className={"absolute w-full text-white"}>
+            <div className={"absolute w-full text-white z-50"}>
                 <Navbar />
             </div>
             <div className={"absolute w-full"}>
                 <div className={"relative w-full h-screen"}>
-                    <img src={"Markus.png"} alt={"Markus"} className={"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-52 rounded-"} />
+                    <img src={"Markus.png"} alt={"Markus"} className={"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 rounded-lg"} />
                 </div>
             </div>
             <img src={"forest.jpg"} alt={"Forest"} className={"w-screen h-screen"} />

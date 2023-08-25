@@ -7,7 +7,7 @@ export default function Home() {
           <Navbar />
         </div>
         <div>
-          <img src={"/images/Forest.jpg"} alt={"Forest"} className={"w-screen h-screen"} />
+          <img src={"/images/forest.jpg"} alt={"Forest"} className={"w-screen h-screen"} />
           <div className={"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-medium text-3xl text-white"}>
             <h1>Markus á lað</h1>
           </div>
